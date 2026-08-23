@@ -1,3 +1,23 @@
+"""
+Hospital Management Module
+--------------------------
+
+This module provides classes for managing people and basic operations
+within a hospital system.
+
+The module includes an abstract Person class and concrete classes for
+patients, staff members, and visitors. It also provides a Hospital
+class for managing patients, staff, and hospital departments.
+
+Classes:
+    Person: Abstract base class for all people in the hospital.
+    Patient: Represents a hospital patient and their medical record.
+    Staff: Represents a hospital staff member and their position.
+    Visitor: Represents a visitor visiting a patient.
+    Hospital: Manages hospital information, patients, staff, and departments.
+
+
+"""
 from abc import ABC, abstractmethod
 
 
