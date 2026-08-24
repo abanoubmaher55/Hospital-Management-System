@@ -8,7 +8,13 @@ class Staff(Person):
     """
 
     def __init__(self , name: str, age: int, position: str):
-        """Create a staff member with a name is a string , age is an integar, and position is a sting."""
+        """Create a staff member
+        
+        Args:
+        name (str): the staff member's name 
+        age (int): the staff memeber's age
+        position(str): the staff members position
+        """
         super().__init__(name, age)
         self.position = position
 
