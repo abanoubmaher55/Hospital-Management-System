@@ -11,9 +11,10 @@ class Staff(Person):
         """Create a staff member
         
         Args:
-        name (str): the staff member's name 
-        age (int): the staff memeber's age
-        position(str): the staff members position
+
+            name (str): the staff member's name 
+            age (int): the staff memeber's age
+            position(str): the staff members position
         """
         super().__init__(name, age)
         self.position = position
