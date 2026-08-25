@@ -1,4 +1,4 @@
-from department import Department
+from models.department import Department
 
 
 class Hospital:

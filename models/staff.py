@@ -1,4 +1,4 @@
-from person import Person
+from models.person import Person
 
 class Staff(Person):
     """Represent a hospital staff member with a name, age, and position
