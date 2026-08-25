@@ -70,7 +70,7 @@ class Department:
         self.staff.append(staff_member)
         print(f"Staff '{staff_member.name}' added to {self.name} department.")
 
-    def view_department_summary(self) -> str:
+    def view_info(self) -> str:
         """
         Generates a summary of the department, including staff and patient counts.
 
