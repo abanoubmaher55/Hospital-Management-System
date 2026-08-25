@@ -31,7 +31,7 @@ class Person(ABC):
         age (int): The person's age.
     """
 
-    def __init__(self, name, age):
+    def __init__(self, name:str, age:int):
         """
         Initialize a Person object.
 
