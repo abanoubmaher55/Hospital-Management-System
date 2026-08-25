@@ -6,7 +6,6 @@ class Staff(Person):
     This class extends :class:`Person` with the staff member's job position
     and provides a formatted view of the staff member's information
     """
-
     def __init__(self , name: str, age: int, position: str):
         """Create a staff member
         

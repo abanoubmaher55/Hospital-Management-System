@@ -81,6 +81,7 @@ def add_staff(hospital: Hospital) -> None:
 
     show_departments(hospital)
 
+
     try:
         department_number = int(
             input("Enter the department number to add the staff to: ")

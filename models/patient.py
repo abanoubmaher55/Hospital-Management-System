@@ -8,7 +8,6 @@ class Patient(Person):
     This class extends the Person class by storing the patient's
     medical record
     """
-
     def __init__(self, name: str, age: int, medical_record: str):
         """Initialize a patient with personal and medical information
 

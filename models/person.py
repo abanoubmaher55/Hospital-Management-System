@@ -9,7 +9,6 @@ The Person class provides common attributes shared by all people in
 the hospital, such as name and age. It also defines the abstract
 view_info() method, which must be implemented by subclasses such as
 Patient and Staff.
-
 Classes:
     Person: Abstract base class representing a person in the hospital.
 """

@@ -4,7 +4,6 @@ from models.department import Department
 class Hospital:
     """
      The Hospital class represent a hospital containing multiple departments
-
     """
 
     def __init__(self, name: str, location: str):

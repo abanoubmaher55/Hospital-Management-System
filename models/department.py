@@ -6,7 +6,6 @@ This module defines the Department class for the Hospital Management System.
 It encapsulates department-level operations, managing patient admissions and
 staff employment in alignment with the Hospital UML specification.
 """
-
 from models.patient import Patient
 from models.staff import Staff
 
