@@ -28,7 +28,5 @@ class Patient(Person):
                 age, and medical record
         """
         return (
-            f"\nName: {self.name} "
-            f"\nAge: {self.age} "
-            f"\nMedical Record: {self.medical_record}"
+            f" Name: {self.name}, Age: {self.age}, Medical Record: {self.medical_record}"
         )
