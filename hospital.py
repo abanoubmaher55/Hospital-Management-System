@@ -10,7 +10,6 @@ class Hospital:
     def __init__(self, name: str, location: str):
         """
         Initialize a new hospital with its name and location
-
         Args:
             name (str): The name of the hospital
             location (str): The location where the hospital is located
