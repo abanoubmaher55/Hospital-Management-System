@@ -3,13 +3,14 @@ from department import Department
 
 class Hospital:
     """
-     The Hospital class represent a hospital containing multiple departments
+     The Hospital class represent a hospital containing multiple departments.
 
     """
 
     def __init__(self, name: str, location: str):
         """
         Initialize a new hospital with its name and location
+        
         Args:
             name (str): The name of the hospital
             location (str): The location where the hospital is located
